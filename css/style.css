@@ -7,6 +7,10 @@ h2 {
     font-weight: 600;
 }
 
+section {
+    text-align: center;
+}
+
 /* HEADER  */
 
 header {
@@ -75,10 +79,14 @@ header .ms_burger-menu {
     background-color: #333;
 }
 
-.box {
+#portfolio img {
+    max-width: 100%;
+}
+
+/* .box {
     min-height: 200px;
     background-color: salmon;
-}
+} */
 
 /* SECTION ABOUT  */
 
@@ -104,6 +112,20 @@ header .ms_burger-menu {
 .form>div {
     border-bottom: 1px solid gray;
     padding: 10px 0;
+    max-width: 70%;
+    width: 100%;
+}
+
+.form>div:last-child {
+    border-bottom: none;
+}
+
+button {
+    background-color: hsl(168deg 76% 42%);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
 }
 
 /* FOOTER  */
