@@ -2,6 +2,11 @@ body {
     color: white;
 }
 
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 /* HEADER  */
 
 header {
@@ -41,7 +46,11 @@ header .ms_burger-menu {
     width: 200px;
 }
 
-#profilo i {
+#profilo h1 {
+    font-weight: 700;
+}
+
+.star {
     vertical-align: middle;
     font-size: 2rem;
 }
@@ -54,4 +63,55 @@ header .ms_burger-menu {
 
 #profilo .line {
     background-color: white;
+}
+
+/* SECTION PORTFOLIO  */
+
+#portfolio {
+    color: #333;
+}
+
+#portfolio .line {
+    background-color: #333;
+}
+
+.box {
+    min-height: 200px;
+    background-color: salmon;
+}
+
+/* SECTION ABOUT  */
+
+#about {
+    background-color: hsl(168deg 76% 42%);
+    font-size: 1.2rem;
+}
+
+#about .line {
+    background-color: white;
+}
+
+/* SECTION CONTACT  */
+
+#contact {
+    color: #333;
+}
+
+#contact .line {
+    background-color: #333;
+}
+
+.form>div {
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
+/* FOOTER  */
+
+footer {
+    background-color: #3A546D;
+}
+
+.copyright {
+    background-color: #2C3E50;
 }
