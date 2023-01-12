@@ -1,0 +1,57 @@
+body {
+    color: white;
+}
+
+/* HEADER  */
+
+header {
+    height: 100px;
+    background-color: hsl(210deg 29% 24%);
+}
+
+header .row {
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    font-weight: bolder;
+}
+
+header .ms_burger-menu {
+    color: gray;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+/* SECTION PROFILO  */
+
+#profilo {
+    background-color: hsl(168deg 76% 42%);
+    font-size: 1.2rem;
+}
+
+#profilo img {
+    width: 200px;
+}
+
+#profilo i {
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+.line {
+    height: 4px;
+    width: 15%;
+    display: inline-block;
+}
+
+#profilo .line {
+    background-color: white;
+}
