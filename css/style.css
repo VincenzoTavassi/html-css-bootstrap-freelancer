@@ -2,6 +2,10 @@ body {
     color: white;
 }
 
+h1 {
+    font-weight: 700;
+}
+
 h2 {
     font-size: 2rem;
     font-weight: 600;
@@ -9,6 +13,36 @@ h2 {
 
 section {
     text-align: center;
+    font-size: 1.2rem;
+}
+
+section:nth-child(odd) {
+    background-color: hsl(168deg 76% 42%);
+}
+
+section:nth-child(even) {
+    color: #333;
+}
+
+/* STAR LINE */
+
+.ms_star {
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+.ms_line {
+    height: 4px;
+    width: 15%;
+    display: inline-block;
+}
+
+.ms_line.ms_line-white {
+    background-color: white;
+}
+
+.ms_line.ms_line-black {
+    background-color: #333;
 }
 
 /* HEADER  */
@@ -41,63 +75,17 @@ header .ms_burger-menu {
 
 /* SECTION PROFILO  */
 
-#profilo {
-    background-color: hsl(168deg 76% 42%);
-    font-size: 1.2rem;
-}
-
 #profilo img {
     width: 200px;
 }
 
-#profilo h1 {
-    font-weight: 700;
-}
-
-.star {
-    vertical-align: middle;
-    font-size: 2rem;
-}
-
-.line {
-    height: 4px;
-    width: 15%;
-    display: inline-block;
-}
-
-#profilo .line {
-    background-color: white;
-}
-
 /* SECTION PORTFOLIO  */
-
-#portfolio {
-    color: #333;
-}
-
-#portfolio .line {
-    background-color: #333;
-}
 
 #portfolio img {
     max-width: 100%;
 }
 
-/* .box {
-    min-height: 200px;
-    background-color: salmon;
-} */
-
 /* SECTION ABOUT  */
-
-#about {
-    background-color: hsl(168deg 76% 42%);
-    font-size: 1.2rem;
-}
-
-#about .line {
-    background-color: white;
-}
 
 button.button-download {
     border: 1px solid white;
@@ -107,17 +95,8 @@ button.button-download {
 
 /* SECTION CONTACT  */
 
-#contact {
-    color: #333;
-}
-
-#contact .line {
-    background-color: #333;
-}
-
 label {
     display: block;
-    font-size: 1.1rem;
     font-weight: 500;
 }
 
@@ -146,11 +125,11 @@ footer {
     background-color: #3A546D;
 }
 
-.copyright {
+#copyright {
     background-color: #2C3E50;
 }
 
-.icon {
+.ms_icon {
     font-size: 1.5rem;
     border: 1px solid white;
     padding: 15px;
