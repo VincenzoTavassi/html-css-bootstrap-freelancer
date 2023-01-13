@@ -88,7 +88,7 @@
 				<i class="star mx-3 fa-solid fa-star"></i>
 				<div class="line"></div>
 				<div class="row mt-5 gy-2 text-start justify-content-center">
-					<div class="col-12 col-md-5">
+					<div class="col-10 col-md-5">
 						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quas
 							architecto saepe quisquam non eligendi facere provident maiores temporibus quod
 							exercitationem quo molestias iste possimus, dolore dignissimos laborum est impedit! Lorem
@@ -96,7 +96,7 @@
 							eius. Similique cupiditate natus nesciunt, modi commodi atque, minus, magnam assumenda
 							architecto nulla id suscipit at?</p>
 					</div>
-					<div class="col-12 col-md-5">
+					<div class="col-10 col-md-5">
 						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates corporis
 							quo ab adipisci cumque possimus sit provident repudiandae, at eius! Officia earum autem,
 							dolores deserunt quam cupiditate nostrum velit magnam! Lorem ipsum dolor sit amet
@@ -115,13 +115,27 @@
 				<div class="line"></div>
 				<i class="star mx-3 fa-solid fa-star"></i>
 				<div class="line"></div>
-				<div class="d-flex flex-column align-items-center form py-5 text-start">
-					<div>Name</div>
-					<div>Address</div>
-					<div>Phone Number</div>
-					<div>Message</div>
-					<div><button>Send</button></div>
-				</div>
+				<form class="row flex-column align-items-center gy-3 py-5 text-start"
+					action="https://tizianonicolai.com/lezioni/form-printer/" method="POST" target="_blank">
+					<div class="col-10">
+						<label for="Nome">Name</label>
+						<input type="text" id="Nome" name="Nome">
+					</div>
+					<div class="col-10">
+						<label for="Indirizzo">Address</label>
+						<input type="text" id="Indirizzo" name="Indirizzo">
+					</div>
+					<div class="col-10">
+						<label for="Telefono">Phone Number</label>
+						<input type="number" id="Telefono" name="Telefono">
+					</div>
+					<div class="col-10">
+						<label for="Messaggio">Message</label>
+						<textarea name="Message" id="Messaggio">
+					</textarea>
+					</div>
+					<div class="col-10"><button>Send</button></div>
+				</form>
 			</div>
 		</section>
 	</main>
@@ -129,13 +143,29 @@
 		<div class="container py-5">
 			<div class="row gy-2 justify-content-center">
 				<div class="col-12 col-md-4">
-					<div class="box">Location</div>
+					<h3>LOCATION</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, tempore?</p>
 				</div>
 				<div class="col-12 col-md-4">
-					<div class="box">Around The Web</div>
+					<h3>AROUND THE WEB</h3>
+					<div class="row g-2 justify-content-center">
+						<div class="col-2 col-md-6 col-lg-2">
+							<i class="icon fa-brands fa-facebook"></i>
+						</div>
+						<div class="col-2 col-md-6 col-lg-2">
+							<i class="icon fa-brands fa-google"></i>
+						</div>
+						<div class="col-2 col-md-6 col-lg-2">
+							<i class="icon fa-brands fa-linkedin"></i>
+						</div>
+						<div class="col-2 col-md-6 col-lg-2">
+							<i class="icon fa-brands fa-twitter"></i>
+						</div>
+					</div>
 				</div>
 				<div class="col-12 col-md-4">
-					<div class="box">About Freelancer</div>
+					<h3>ABOUT FREELANCER</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, culpa?</p>
 				</div>
 			</div>
 		</div>
