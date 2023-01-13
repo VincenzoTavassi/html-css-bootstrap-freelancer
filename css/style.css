@@ -99,6 +99,12 @@ header .ms_burger-menu {
     background-color: white;
 }
 
+button.button-download {
+    border: 1px solid white;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
 /* SECTION CONTACT  */
 
 #contact {
